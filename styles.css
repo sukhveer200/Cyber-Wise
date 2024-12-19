@@ -1,0 +1,117 @@
+/* Basic Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('download\ \(1\).jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(230, 227, 227);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+}
+
+.hero h1 {
+    background-color: rgb(230, 227, 227);
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+
+/* About, Services, Contact, Resources */
+
+section {
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+
+/* Form styling */
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #840f0f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Back Button */
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
